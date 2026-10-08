@@ -1,0 +1,55 @@
+# === Python / Entornos virtuales ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Logs y Diagnósticos Temporales ===
+*.log
+session_diagnostic.log
+
+# === Datos Locales y Archivos Temporales de Adquisición ===
+# Permite conservar la estructura pero ignora volcados masivos generados en pruebas
+data/raw_samples/*
+!data/raw_samples/.gitkeep
+data/evidence/*
+!data/evidence/.gitkeep
+
+# === IDEs y Editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Archivos de Sistema ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
