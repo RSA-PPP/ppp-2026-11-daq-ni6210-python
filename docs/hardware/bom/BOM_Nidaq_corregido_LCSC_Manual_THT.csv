@@ -1,0 +1,21 @@
+Comment,Designator,Footprint,LCSC Part #,Nota
+220R,"R_02,R_03,R_04,R_05,R_06,R_07,R_10,R_11,R_12,R_13,R_14,R_15,R_16,R_17,R_18,R_8",R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,Envío consolidado - Soldar a mano
+68nF,"C15,C16",C_Disc_D5.0mm_W2.5mm_P5.00mm,,Envío consolidado - Soldar a mano
+Acondicionamiento 2,"J21,J23",PinHeader_1x05_P2.54mm_Vertical,,Envío consolidado - Soldar a mano
+Conn_01x03_Pin,J,,,Envío consolidado - Soldar a mano
+Conn_01x32_Pin,J16,NIDAQ  USB 62XX,,Envío consolidado - Soldar a mano
+Conn_02x03_Odd_Even,"J26,J27",PinHeader_2x03_P2.54mm_Vertical,,Envío consolidado - Soldar a mano
+Conn_02x05_Odd_Even,"J20,J22",PinHeader_2x05_P2.54mm_Vertical,,Envío consolidado - Soldar a mano
+Fuente 1,J19,PinHeader_1x06_P2.54mm_Vertical,,Envío consolidado - Soldar a mano
+Fuente 2,J18,PinHeader_1x08_P2.54mm_Vertical,,Envío consolidado - Soldar a mano
+GALGAS,J17,JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_10,"J11,J15",JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_2,J3,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_3,J4,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_4,J5,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_5,J6,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_6,J7,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_7,"J12,J8",JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_8,J13,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+POT_9,"J10,J14",JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,,Envío consolidado - Soldar a mano
+PRESION,J1,JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical,,Envío consolidado - Soldar a mano

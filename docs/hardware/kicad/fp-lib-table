@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Libreria_RSA") (type "KiCad") (uri "I:/Mi unidad/RSA/tarjetas/RSALib_KiCad/Libreria_RSA.pretty") (options "") (descr ""))
+)
