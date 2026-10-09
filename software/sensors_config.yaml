@@ -1,0 +1,172 @@
+# Configuración Maestra de Sensores Geotécnicos (NI USB-6210)
+device_name: "Dev1"
+sampling_rate_hz: 100
+# buffer_size_per_channel: 1000
+
+channels:
+  # =================================================================
+  # CANALES DE DEFORMACIÓN (Galgas Extensométricas + INA114AP)
+  # =================================================================
+  - id: "CH01"
+    physical_name: "ai0"
+    sensor_type: "strain_gauge_bridge"
+    terminal_config: "DIFFERENTIAL"
+    voltage_range: [-1.0, 1.0] # Límite de seguridad del INA114AP. Se validará en banco.
+    gauge_factor: 2.1
+    excitation_voltage_v: 5.0
+    amplifier_gain: 501.0 # Requerirá ajuste exacto tras caracterización con resistencias patrón (Fase 3)
+    engineering_unit: "ue"
+
+  - id: "CH02"
+    physical_name: "ai1"
+    sensor_type: "strain_gauge_bridge"
+    terminal_config: "DIFFERENTIAL"
+    voltage_range: [-1.0, 1.0]
+    gauge_factor: 2.1
+    excitation_voltage_v: 5.0
+    amplifier_gain: 501.0
+    engineering_unit: "ue"
+
+  # =================================================================
+  # CANALES DE DESPLAZAMIENTO (Potenciómetros Lineales)
+  # =================================================================
+  - id: "CH03"
+    physical_name: "ai2"
+    sensor_type: "potentiometer_displacement"
+    # En la Fase 4 evaluaremos experimentalmente RSE vs NRSE para mitigar cross-talk y bucles de masa.
+    terminal_config: "RSE" # Topología referenciada inicial. Sujeta a evaluación contra NRSE.
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0 # Pendiente teórica inicial. Se caracterizará metrológicamente luego.
+      intercept_mm: 0.0 # Intercepto neutro inicial
+    engineering_unit: "mm"
+
+  - id: "CH04"
+    physical_name: "ai3"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH05"
+    physical_name: "ai4"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH06"
+    physical_name: "ai5"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH07"
+    physical_name: "ai6"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH08"
+    physical_name: "ai7"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH09"
+    physical_name: "ai8"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH10"
+    physical_name: "ai9"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH11"
+    physical_name: "ai10"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH12"
+    physical_name: "ai11"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH13"
+    physical_name: "ai12"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH14"
+    physical_name: "ai13"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH15"
+    physical_name: "ai14"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
+
+  - id: "CH16"
+    physical_name: "ai15"
+    sensor_type: "potentiometer_displacement"
+    terminal_config: "RSE"
+    voltage_range: [0.0, 10.0]
+    calibration:
+      slope_mm_per_v: 10.0
+      intercept_mm: 0.0
+    engineering_unit: "mm"
